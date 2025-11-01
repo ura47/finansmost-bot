@@ -22,7 +22,7 @@ bot = telebot.TeleBot(os.getenv('BOT_TOKEN'))
 
 COMMANDS = {
     'about': 'https://t.me/finansmost/26',
-    'begin': 'https://t.me/finansmost/31', 
+    'begin': 'https://t.me/finansmost/31',
     '2fa': 'https://t.me/finansmost/44',
     'verifikaciya': 'https://t.me/finansmost/41',
     'birga': 'https://t.me/finansmost/41',
@@ -40,4 +40,4 @@ def send_answer(message):
 
 print('Бот запущен...')
 bot.polling()
-          "
+"
